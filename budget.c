@@ -14,8 +14,8 @@ int main() {
     int totalBudget = 0;
 
 
-    for (int day = startDay; day <= endDay; day += 2) {
-        totalBudget += costPerEvent;     }
+    for (int day = startDay; day <= endDay; day =day + 2) {
+        totalBudget = totalBudget + costPerEvent;     }
 
 
     printf("Total budget allocated for even-day events: %d Rs\n", totalBudget);
