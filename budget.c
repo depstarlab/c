@@ -1,3 +1,10 @@
+
+// A company organizes events on even days of the month, from day 1 to day 100. 
+// The management wants to calculate the total budget allocated for these events. 
+// Each even day costs 200 Rs. Write a C program to compute the total budget 
+// allocated for all even-day events.
+
+
 #include <stdio.h>
 
 int main() {
